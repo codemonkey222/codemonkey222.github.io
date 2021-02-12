@@ -15,8 +15,11 @@
         function convert() {
             console.log("pixel11");
             fetch('https://sample-app-jieming.herokuapp.com/pixel', {
-      mode: "no-cors" // 'cors' by default
-    })
+                mode: "no-cors", // 'cors' by default
+                header: {
+    'Access-Control-Allow-Origin':'*',
+  }
+                })
                 .then(response => response.text())
                 .then(data => console.log(data));
         }
