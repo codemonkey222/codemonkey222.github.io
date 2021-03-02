@@ -39,7 +39,7 @@ fbq('init', '144682222847096');
 // if you need to experiment with pixel fires, use fbq('trackSingle', '1962619450647008', 'PageView');
 fbq('trackSingle', '144682222847096', 'PageView');
 console.log("tracking pixel ======");
-console.log(location.href, document.referrer);
+console.log(location.href, document.referrer, document.referrer == null || document.referrer === '');
 </script>
 
 <!-- Facebook Pixel Code -->
