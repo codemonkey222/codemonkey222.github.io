@@ -13,14 +13,15 @@
 <body>
     <script>
         function convert1() {
-            window.open('https://youtube.com');
-            window.open('https://www.macys.com');
-            // window.location.href = 'https://developer.mozilla.org/en-US/docs/Web/API/Location.reload';
+            // window.open('https://youtube.com');
+            // window.open('https://www.macys.com');
+            window.location.href = 'https://developer.mozilla.org/en-US/docs/Web/API/Location.reload';
         }
         function convert() {
             console.log("evaluating convert function here =======");
             convert1();
-            window.location.href = 'https://google.com';
+            setTimeout(function(){ window.location.href = 'https://google.com'; }, 0);
+            
   //           console.log("pixel11");
   //           fetch('https://sample-app-jieming.herokuapp.com/pixel', {
   //               mode: "no-cors", // 'cors' by default
