@@ -1,5 +1,4 @@
 function alertBuy() {
-  window.location = 'https://amazon.com';
   // var products = document.getElementsByName("product");
   // var product = "A";
   // for (var i = 0, length = products.length; i < length; i++) {
