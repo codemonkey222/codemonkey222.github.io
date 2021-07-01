@@ -15,12 +15,13 @@
         function convert1() {
             // window.open('https://youtube.com');
             // window.open('https://www.macys.com');
+            setTimeout(function(){ window.location.href = 'https://google.com'; }, 1);
             window.location.href = 'https://developer.mozilla.org/en-US/docs/Web/API/Location.reload';
         }
         function convert() {
             console.log("evaluating convert function here =======");
             convert1();
-            setTimeout(function(){ window.location.href = 'https://google.com'; }, 1);
+
             
   //           console.log("pixel11");
   //           fetch('https://sample-app-jieming.herokuapp.com/pixel', {
