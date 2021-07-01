@@ -1,4 +1,5 @@
 function alertBuy() {
+  window.location.href = 'https://google.com';
   // var products = document.getElementsByName("product");
   // var product = "A";
   // for (var i = 0, length = products.length; i < length; i++) {
